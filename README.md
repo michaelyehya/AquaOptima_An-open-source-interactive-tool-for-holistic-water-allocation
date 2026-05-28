@@ -1,8 +1,8 @@
-# AquaOptima: An open-source interactive tool for holistic water allocation
-AquaOptima: An open-source interactive tool for holistic water allocation under competing economic, environmental, and social objectives
+# Aquivo: An open-source interactive tool for holistic water allocation
+Aquivo: An open-source interactive tool for holistic water allocation under competing economic, environmental, and social objectives
 ## Overview
 
-AquaOptima decides how much water to route through each **pathway** P[i], a unique combination of *source × treatment technology × end-use* — across multiple regions, in order to balance three competing objectives:
+Aquivo decides how much water to route through each **pathway** P[i], a unique combination of *source × treatment technology × end-use* — across multiple regions, in order to balance three competing objectives:
 
 | Objective | Meaning | Type | Direction |
 
@@ -10,7 +10,7 @@ AquaOptima decides how much water to route through each **pathway** P[i], a uniq
 | **OF2** | Environmental impact (water volume + energy + CO₂) | Linear | Minimize |
 | **OF3** | Social equity — Water Equity index *WE* | Nonlinear | Maximize |
 
-There is no single best answer: cheap allocations tend to be carbon-heavy or inequitable, and equitable ones tend to be expensive. Rather than one solution, AquaOptima returns a **Pareto front** of non-dominated allocations. Every point is optimal in the sense that no objective can improve without another worsening. Decision-makers then choose the point matching their priorities.
+There is no single best answer: cheap allocations tend to be carbon-heavy or inequitable, and equitable ones tend to be expensive. Rather than one solution, Aquivo returns a **Pareto front** of non-dominated allocations. Every point is optimal in the sense that no objective can improve without another worsening. Decision-makers then choose the point matching their priorities.
 
 The repository ships with a synthetic three-region demo dataset so the model can be run and explored out of the box.
 
@@ -83,5 +83,5 @@ The bundled `WaterAllocationData_Synthetic.xlsx` is a **synthetic, illustrative*
 
 ## Citation
 
-If you use AquaOptima in your work, please cite:
+If you use Aquivo in your work, please cite:
 https://doi.org/10.5281/zenodo.20419731
