@@ -84,4 +84,4 @@ The bundled `WaterAllocationData_Synthetic.xlsx` is a **synthetic, illustrative*
 ## Citation
 
 If you use Aquivo in your work, please cite:
-https://doi.org/
+https://doi.org/10.5281/zenodo.20436798
